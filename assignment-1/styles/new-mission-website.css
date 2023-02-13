@@ -246,10 +246,13 @@
     border-radius: 8px;
   } */
 
+
+  /* Footer Styles */
 .footer {
     display: flex;
     width: 1600px;
     height: 577px;
+    margin-top: 155.04px;
     /* left: 0px;
     top: 2651.96px; */
 
@@ -261,17 +264,82 @@
 .footer-container-1 {
     width: 485px;
     height: 317px;
-    margin: 130px 885px 130px 230px;
+    margin: 104.96px 0 130.04px 110px;
 }
 
 .footer-header {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
+    margin-bottom: 16px;
     /* identical to box height */
 
 
     color: #F8F8F8;
 }
 
-.footer-description .footer-email .footer-phone .footer-container-2 .footer-email .footer-btn
+.footer-description{
+    width: 485px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 24px;
+/* or 162% */
+
+
+color: #FFFFFF;
+
+} 
+.footer-email{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 16px;
+/* identical to box height, or 162% */
+
+
+color: #FFFFFF;
+
+} 
+.footer-phone{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 32px;
+/* identical to box height, or 162% */
+
+
+color: #FFFFFF;
+
+} 
+
+.footer-container-2{
+    width: 325px;
+    height: 204px;
+    left: 0;
+    top: 0;
+    margin-left: 310px;
+    margin-top: 104.96px;
+    
+} 
+
+.footer-header-2{
+    font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+margin-bottom: 31px;
+color: #FFFFFF;
+
+}
+.footer input{
+    width: 325px;
+height: 64px;
+
+    
+} 
+.footer-btn{
+    width: 170.11px;
+height: 64px;
+background: #005FAC;
+border-radius: 8px;
+}
