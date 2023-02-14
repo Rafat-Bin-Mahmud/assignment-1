@@ -32,7 +32,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     position: absolute;
     width: 494px;
     height: 78px;
@@ -70,13 +69,27 @@
     /* text-align: left; */
     /* list-style-position: inside; */
     /* text-justify: inter-cluster ; */
-    width: 1072px;
+    width: 100%;
     height: 723.3px;
     margin: 0, auto;
+    margin-top: 123px;
+}
+.failure img{
+    width: 569px;
+height: 723.3px;
+left: 231px;
+top: 931px;
+margin-left: 130px;
 }
 
 .failure-container {
-    margin: 250px 50px;
+    width: 100%;
+height: 400px;
+left: 887px;
+top: 1588px;
+    /* margin: 150px 0; */
+    margin-top: 240px;
+    margin-left: 87px;
 }
 
 .failure-title {
@@ -87,8 +100,17 @@
 }
 
 .failure-description {
-    width: 50%;
+    width: 70%;
     margin-bottom: 20px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 02 */
+
+color: #444343;
 }
 
 .failure .list ul {
@@ -96,6 +118,18 @@
     /* list-style: circle;
     margin-bottom: 20px; */
 }
+ul li:before {
+    content: '\2713';
+    display: inline-block;
+    color: #16D887;
+    padding: 0 6px 0 0;
+  }
+  
+  ul li {
+    list-style-type: none;
+    font-size: 1em;
+    margin-bottom: 18px;
+  }
 
 
 /* My plans styles */
@@ -109,7 +143,7 @@
     line-height: 47px;
     text-align: center;
     color: #151414;
-    margin-top: 130px;
+    margin-top: 137.7px;
     margin-bottom: 50px;
 }
 
@@ -166,10 +200,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-.goal-description-1{
+
+.goal-description-1 {
     text-align: center;
-    padding-top:60px;
+    padding-top: 60px;
 }
+
 .goal-description-2 {
     text-align: justify;
     padding-left: 70px;
@@ -177,13 +213,13 @@
 
 }
 
-/* Watch image styles */
+/* Overlays image section styles */
 .gradient {
     width: 1140px;
     height: 300px;
     margin: 0 auto;
     position: relative;
-    margin-top:145px ;
+    margin-top: 145px;
 
 }
 
@@ -242,10 +278,10 @@
 
 
 
-  /* Footer Styles */
+/* Footer Styles */
 .footer {
     display: flex;
-    width: 1600px;
+    width: 100%;
     height: 577px;
     margin-top: 155.04px;
     /* left: 0px;
@@ -265,66 +301,58 @@
     font-size: 45px;
     line-height: 53px;
     margin-bottom: 16px;
-    /* identical to box height */
-
 
     color: #F8F8F8;
 }
 
-.footer-description{
+.footer-description {
     width: 485px;
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 24px;
-/* or 162% */
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
 
+}
 
-color: #FFFFFF;
-
-} 
-.footer-email{
+.footer-email {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 16px;
-/* identical to box height, or 162% */
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
 
+}
 
-color: #FFFFFF;
-
-} 
-.footer-phone{
+.footer-phone {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 32px;
-/* identical to box height, or 162% */
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
 
+}
 
-color: #FFFFFF;
-
-} 
-
-.footer-container-2{
+.footer-container-2 {
     width: 325px;
     height: 204px;
     left: 0;
     top: 0;
     margin-left: 290px;
     margin-top: 104.96px;
-    
-} 
-
-.footer-header-2{
-    font-weight: 600;
-font-size: 25px;
-line-height: 29px;
-margin-bottom: 31px;
-color: #FFFFFF;
 
 }
-.footer input{
+
+.footer-header-2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+    color: #FFFFFF;
+
+}
+
+.footer input {
     width: 325px;
     height: 64px;
     border: solid;
@@ -332,27 +360,29 @@ color: #FFFFFF;
     border-radius: 8px;
     background: #151414;
     margin-bottom: 16px;
-    
+
     font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    padding-left: 21px;
+}
 
-/* Dark 07 */
-
-color: #F3F3F3;
-padding-left: 21px;
-} 
-.footer-btn{
+.footer-btn {
     width: 170.11px;
-height: 64px;
-background: #005FAC;
-border-radius: 8px;
-border-color: #151414;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    border-color: #151414;
 
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
 
 }
+.footer a{
+    text-decoration: none;
+    margin-right: 17px;
+}
+
